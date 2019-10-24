@@ -1,0 +1,22 @@
+<!-- Navigation -->
+	<!-- Fixed navbar -->
+  <div class="logo">
+    <a href="index.html"><img src="/img/commongnd.png" width="300" align="center"></a>
+  </div>
+	<div class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav  mainNav">
+          {% for item in site.data.navigation %}
+          <li {% if page.url == item.link %}class="active"{%endif%}><a href="{{ item.link }}">{{item.name}}</a></li>
+          {% endfor %}
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+	<!-- /.navbar -->

@@ -1,0 +1,38 @@
+	<header id="head">
+		<div class="container">
+      <div class="heading-text">
+        <h1 class="animated flipInY delay1">Taxing land values stimulates smart growth</h1>
+        <button class="infos-button" onclick="window.location.href = '/lvt.html';">Learn more</button>
+			</div>
+			<div class="fluid_container">
+        <div class="camera_wrap camera_emboss pattern_1" id="camera_wrap_4">
+          {% for img in site.data.marquee %}
+          <div data-thumb="{{ img.img | prepend: site.baseurl }}" data-src="{{ img.img | prepend: site.baseurl }}"></div>
+          {% endfor %}
+        </div><!-- #camera_wrap_4 -->
+      </div><!-- .fluid_container -->
+    </div>
+  </header>
+
+  <!--
+    <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_4').camera({
+                transPeriod: 500,
+                time: 3000,
+				height: '600',
+				loader: 'false',
+				pagination: true,
+				thumbnails: false,
+				hover: false,
+                playPause: false,
+                navigation: false,
+				opacityOnGrid: false,
+				imagePath: 'img/'
+			});
+
+		});
+      
+	</script>
+  -->

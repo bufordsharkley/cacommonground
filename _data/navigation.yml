@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Why LVT?
+  link: /lvt.html
+- name: Contact
+  link: /contact.html
+- name: Events
+  link: /events.html
