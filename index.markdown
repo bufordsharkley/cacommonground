@@ -4,3 +4,6 @@
 
 layout: index
 ---
+<div class="panel">
+  dksfdsf
+</div>
