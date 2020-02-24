@@ -1,8 +1,10 @@
 - name: Home
   link: /
+- name: About Us
+  link: /about.html
 - name: Why LVT?
   link: /lvt.html
-- name: Contact
-  link: /contact.html
 - name: Events
   link: /events.html
+- name: Resources
+  link: /resources.html

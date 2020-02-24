@@ -447,8 +447,10 @@ section.contacts.container {
 section.testimonial {
   margin: 90px 0;
 }
-.item-section-test img{
+div.item-section-test {
 		width: 100%;
+    border: 2px solid #4db768;
+    margin-bottom: 10px;
 	}
 
  /* ---------------------------------------------------------------------- */

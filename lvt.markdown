@@ -1,7 +1,7 @@
 ---
 layout: article
 imagetext: "Land Value Tax: an idea with history and results"
-articleimage: true
+articleimage: boulevard
 ---
   <section class="container about-content">
     <h3 class="cta-text text-center">Something about Land Value Tax</h3><br>
