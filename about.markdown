@@ -4,7 +4,8 @@ layout: article
   <section class="container about-content">
     <h3 class="cta-text text-center">Our Mission</h3><br>
         <p class="about-text">
-The mission of our California Chapter of Common Ground USA is to explore and
+The mission of our California Chapter of <a
+href="http://commonground-usa.net/">Common Ground USA</a> is to explore and
 advocate reforms that enable our state and local governments to efficiently
 finance public services and infrastructure while protecting natural resources.
 
@@ -32,8 +33,10 @@ taxation.
   <section class="container about-content">
     <h3 class="cta-text text-center">About Common Ground-USA</h3><br>
         <p class="about-text">
-Common Ground—USA is dedicated to the principle that all persons have equal and
-common rights in the earth and its resources and each individual has an
+
+<a href="http://commonground-usa.net/">Common Ground USA</a> is dedicated to
+the principle that all persons have equal and common rights in the earth and
+its resources and each individual has an
 exclusive right to the income from his or her own labor and capital investment.
 We are also dedicated to support and improve the free market, including
 purchase, ownership, and sale of real estate.
@@ -56,18 +59,23 @@ government.
       <img src="/img/commongnd.png" style="width:60%"/>
     </div>
     <div class="col-lg-6 col-sm-12 col-md-6">
-      <h4>Email</h4>
+      <h4>Email Us</h4>
         <p class="about-text">
-          Instructions on email etc
+          <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
         </p>
-        <p>{{ site.email }}</p>
+      <!--
       <h4>Mail</h4>
         <p class="about-text">
-          sdkfsdfsfdsdkfsldf
         </p>
+      -->
       <h4>Common Ground USA</h4>
         <p class="about-text">
-          Common Ground California is a chapter of Common Ground USA, etc...
+          You can directly reach our parent organization via: <br/>
+          <p>Email: <a href="mailto:info@commonground-usa.net">info@commonground-usa.net</a></p>
+          <p>Postal mail:<br>
+          Common Ground U.S.A.<br>
+          4075 Cheltonham Court<br>
+          Plainfield, Indiana 46168</p>
         </p>
     </div>
   </section>

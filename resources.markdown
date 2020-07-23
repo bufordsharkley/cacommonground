@@ -1,101 +1,73 @@
 ---
 layout: article
 ---
-<section class="testimonial">
-    <div class="container">
-      <div class="start-block">
-        <div class="item-section-test wow fadeInLeft pull-left col-md-7 col-sm-12 col-xs-12 animated" style="visibility: visible; animation-name: fadeInLeft;">
-             <h3>Hello</h3>
-             <p>More stuff</p>
-        </div>
-        <div class="item-section-test wow fadeInRight  pull-right col-md-7 col-sm-12 col-xs-12 animated" style="visibility: visible; animation-name: fadeInRight;">
-             <img src="assets/images/test2.png" align="right" alt="testimonial">
-        </div>
-      </div> 
-      <div class="start-block">
-        <div class="item-section-test wow fadeInLeft pull-left col-md-7 col-sm-12 col-xs-12 animated" style="visibility: visible; animation-name: fadeInLeft;">
-             <img src="assets/images/test1.png" align="left" alt="testimonial">
-        </div>
-        <div class="item-section-test wow fadeInRight  pull-right col-md-7 col-sm-12 col-xs-12 animated" style="visibility: visible; animation-name: fadeInRight;">
-             <img src="assets/images/test2.png" align="right" alt="testimonial">
-        </div>
-      </div>
-      <div class="start-block">
-        <div class="item-section-test wow fadeInLeft pull-left col-md-7 col-sm-12 col-xs-12 animated" style="visibility: visible; animation-name: fadeInLeft;">
-             <img src="assets/images/test1.png" align="left" alt="testimonial">
-        </div>
-        <div class="item-section-test wow fadeInRight  pull-right col-md-7 col-sm-12 col-xs-12 animated" style="visibility: visible; animation-name: fadeInRight;">
-             <img src="assets/images/test2.png" align="right" alt="testimonial">
-        </div>
-      </div>
-      <div class="start-block">
-        <div class="item-section-test wow fadeInLeft pull-left col-md-7 col-sm-12 col-xs-12 animated" style="visibility: visible; animation-name: fadeInLeft;">
-             <img src="assets/images/test1.png" align="left" alt="testimonial">
-        </div>
-        <div class="item-section-test wow fadeInRight  pull-right col-md-7 col-sm-12 col-xs-12 animated" style="visibility: visible; animation-name: fadeInRight;">
-             <img src="assets/images/test2.png" align="right" alt="testimonial">
-        </div>
-      </div>
-      
-    </div>
-  </section>
-  <ul class="posts">
-    {% for post in site.data.resources %}
-      <div class="timeline-panel">
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.link }}">{{ post.title }}</a>
-      </li>
-      </div>
-    {% endfor %}
-  </ul>
+<section class="container about-content">
+<h3 class="cta-text text-center">Resources</h3><br>
+<div class="col-lg-6 col-sm-12 col-md-6">
+  <h3>What’s on this page?</h3>
+  <p class="about-text">
+On this page, you can look over a few resources that have been curated to show background information to the cause of land reform and land use in California and beyond.</p>
+  <p></p>
+</div>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-      <div class="panel">
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </div>
-      </li>
-    {% endfor %}
-  </ul>
+<div class="col-lg-6 col-sm-12 col-md-6">
+  <h3>News/Opinion</h3>
+  <ul>
+  <li><b><a href="https://www.nytimes.com/2019/10/21/us/california-homeless-backlash.html">
+ As Homelessness Surges in California, So Does a Backlash</a></b><br> (New York Times, 2019-10-21)
+</li>
 
-  <section class="container about-content">
-    <h3 class="cta-text text-center">Events</h3><br>
-    <h4 class="cta-text text-center">Current Events</h4><br>
-    <div class="col-lg-6 col-sm-12 col-md-6">
-      <h4>"Who Owns The Earth?" at the San Francisco Public Library</h4>
-      <h5>10/12/19 - 12/28/19</h5>
-        <p class="about-text">
-Who owns the earth? Why is there so much poverty amid so much wealth? Who has
-the right to profit from nature? This exhibit highlights the life and work of
-Henry George, the social theorist and economist, who observed this paradox 140
-years ago while living and working in San Francisco. His book Progress and
-Poverty (1879) stirred his generation to question social inequities during the
-Gilded Age as the pockets of land barons and railroad monopolists fattened off
-the natural wealth in land. George’s keen analyses offered a simple
-solution—reinvest the economic value of land back into the society that created
-it.
-        </p>
-        <p class="about-text">
-Progress and Poverty became an international bestseller with translations in
-more than 30 languages. George's ideas are still relevant today as the San
-Francisco Bay Area grapples with the highest land values and rents in the
-nation and unprecedented homelessness. This exhibit contains original written
-works by George, as well as photos and ephemera that show how his theories
-reverberated over time.
-        </p>
-        <p class="about-text">
-        <a href="https://sfpl.org/index.php?pg=1039825001">More information here</a>
-        </p>
-        <p class="about-text">
-Sponsored by the San Francisco History Center, in partnership with the
-California Chapter-Common Ground USA, The Henry George Schools, New York City
-and San Francisco, The Robert Schalkenbach Foundation and Shaping San Francisco
-        </p>
-    </div>
-    <div class="col-lg-6 col-sm-12 col-md-6">
-      <img src="/img/events/sf_library_2019.jpg" style="width:100%"/>
-    </div>
-  </section>
+<li><b><a href="https://palladiummag.com/2020/02/27/san-franciscos-future-should-begin-with-a-land-value-tax/">
+San Francisco’s Future Should Begin with a Land Value Tax
+</a></b><br>
+(Palladium Magazine, 2020-02-27)
+</li>
+
+<li><b><a href="https://www.nytimes.com/interactive/2019/12/17/us/oakland-california-homeless-camp.html">
+Among the World’s Most Dire Places: This California Homeless Camp
+</a></b><br>
+(New York Times, 2019-12-17)
+</li>
+
+<li><b><a href="https://www.hcn.org/issues/51.21-22/reckoning-with-history-economic-giants-drive-income-inequality-in-a-second-gilded-age">
+Economic giants drive income inequality in a second Gilded Age
+</a></b><br>
+(High Country News, 2019-11-27)
+</li>
+
+<li><b><a href="https://invisiblepeople.tv/homelessness-among-the-elderly-expected-to-triple-in-10-years/">
+Homelessness Among the Elderly Expected to Triple in 10 Years
+</a></b><br>
+(Invisible People, 2019 June)
+</li>
+
+<li><b><a href="https://www.businessinsider.com/photos-homelessness-states-worst-crises-2018-11">
+The 9 states with the worst homelessness crises reveal how bad the housing crunch has gotten in US cities
+</a></b><br>
+(Business Insider, 2019-11-18)
+</li>
+
+</ul>
+
+<p align="right" class="small"><b><a href="">( View More News/Opinion )</a></b>&nbsp;&nbsp;</p>	
+<a name="C45" class="noline"></a>
+
+<a name="NewsHeadlines"></a>
+<h3>Documents</h3>
+<ul>
+
+
+   <li><b><a href="https://lao.ca.gov/reports/2012/tax/property-tax-primer-112912.aspx">Understanding California's Property Taxes, CA LAO
+ </a></b><br></li> (CA LAO, 2012)
+
+      </ul>
+
+
+</div>
+
+<h3>Videos</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sTxyNQ0ea-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Aaq2UXW0krA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qmKZthN50fs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

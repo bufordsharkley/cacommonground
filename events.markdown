@@ -3,7 +3,12 @@ layout: article
 ---
   <section class="container about-content">
     <h3 class="cta-text text-center">Events</h3><br>
-    <h4 class="cta-text text-center">Current Events</h4><br>
+    <h4 class="cta-text text-center">Upcoming Events</h4><br>
+    <p class="about-text">
+     Please consult our calendar for information about upcoming events:
+    <iframe src="https://calendar.google.com/calendar/embed?src=pur358jiv3bor3o9mv93tnhl58%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </p>
+    <h4 class="cta-text text-center">Previous Events</h4><br>
     <div class="col-lg-6 col-sm-12 col-md-6">
       <h4>"Who Owns The Earth?" at the San Francisco Public Library</h4>
       <h5>10/12/19 - 12/28/19</h5>
@@ -27,7 +32,6 @@ works by George, as well as photos and ephemera that show how his theories
 reverberated over time.
         </p>
         <p class="about-text">
-        <a href="https://sfpl.org/index.php?pg=1039825001">More information here</a>
         </p>
         <p class="about-text">
 Sponsored by the San Francisco History Center, in partnership with the
@@ -38,4 +42,17 @@ and San Francisco, The Robert Schalkenbach Foundation and Shaping San Francisco
     <div class="col-lg-6 col-sm-12 col-md-6">
       <img src="/img/events/sf_library_2019.jpg" style="width:100%"/>
     </div>
+
+    <hr/>
+      <h4>Progress to Poverty: Land and Rents</h4>
+      <h5>hosted by Shaping San Francisco on November 13, 2019</h5>
+      <h5>The Eric Quezada Center for Culture and Politics, 518 Valencia Street (near 16th), in San Francisco</h5>
+      <h5>Mary Rose Kaczorowski, President, California Chapter of Common Ground USA and exhibit guest curator:  Who Owns The Earth? Henry George’s Progress & Poverty 140 Years Later.</h5>
+        <p class="about-text">
+On the 140th anniversary of Henry George’s Progress and Poverty, his land tax and radical reform of land use are worth a critical re-examination. Geographer Richard Walker along with Ted Gwartney of the California chapter of Common Ground USA, untangle what George proposed, what happened as a result of his ideas, and what the future holds. In conjunction with the San Francisco Public Library exhibit Who Owns the Earth? Henry George’s Progress & Poverty 140 Years Later (October 12- December 28, 2019).
+      </p>
+      <p class="about-text">
+      <a href="http://shapingsf.org/public-talks/archive_video_Fall2019.html#George">More information here</a>
+      </p>
+<iframe src="https://archive.org/embed/progresstopovertynov132019" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen=""></iframe>
   </section>
