@@ -4,10 +4,28 @@ layout: article
   <section class="container about-content">
     <h3 class="cta-text text-center">Events</h3><br>
     <h4 class="cta-text text-center">Upcoming Events</h4><br>
+
+    <div class="col-lg-6 col-sm-12 col-md-6">
+      <h4>What Would Henry George Say About Prop 15: An Introduction to Georgism</h4>
+      <h5>September 16, 2020</h5>
+        <p class="about-text">
+Prop. 15 proposes to change commercial property taxes in California. Join us
+via webinar 9/16 at 7pm to learn about its relation to the principles of land
+reform and land value capture.
+        </p>
+        <p>
+          <a href="https://forms.gle/9dNdLtk5ETTomw4S9">RSVP here</a>
+        </p>
+    </div>
+    <div class="col-lg-6 col-sm-12 col-md-6">
+      <img src="/img/events/prop_15_2020.png" style="width:100%"/>
+    </div>
+
     <p class="about-text">
      Please consult our calendar for information about upcoming events:
     <iframe src="https://calendar.google.com/calendar/embed?src=pur358jiv3bor3o9mv93tnhl58%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </p>
+
     <h4 class="cta-text text-center">Previous Events</h4><br>
     <div class="col-lg-6 col-sm-12 col-md-6">
       <h4>"Who Owns The Earth?" at the San Francisco Public Library</h4>
