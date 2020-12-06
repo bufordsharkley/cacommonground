@@ -30,7 +30,7 @@ a:hover, a:focus{
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
   border-color: #101010;
   margin: 0 auto;
-  max-width: 370px;
+  max-width: 470px;
 }
 
 .navbar-toggle {
