@@ -1,7 +1,6 @@
 ---
-layout: article
+layout: bare
 ---
-<section class="container about-content">
 <h3 class="cta-text text-center">Resources</h3><br>
 <div class="col-lg-6 col-sm-12 col-md-6">
   <h3>What’s on this page?</h3>

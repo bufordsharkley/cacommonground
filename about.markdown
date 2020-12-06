@@ -1,7 +1,7 @@
 ---
 layout: article
 ---
-  <section class="container about-content">
+  <section class="container about-content" id="contact">
     <h3 class="cta-text text-center">Our Mission</h3><br>
         <p class="about-text">
 The mission of our California Chapter of <a

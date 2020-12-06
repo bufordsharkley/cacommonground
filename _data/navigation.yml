@@ -9,4 +9,5 @@
 - name: Resources
   link: /resources.html
 - name: Value Capture
-  link: /pdf/2020-12_Transit_Value_Capture.pdf
+  #link: /pdf/2020-12_Transit_Value_Capture.pdf
+  link: /vc.html

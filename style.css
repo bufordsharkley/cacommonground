@@ -459,11 +459,12 @@ div.item-section-test {
 /* ---------------------------------------------------------------------- */
 
 
-p.about-text {
+.about-content p {
   font-size: 15px;
   line-height: 30px;
 }
-h3.cta-text.text-center {
+
+.about-content h3 {
   margin: 95px 0 60px;
   line-height: 1.83em;
 }
