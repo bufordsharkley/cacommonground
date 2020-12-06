@@ -3,7 +3,7 @@ layout: bare
 ---
 <h3 class="cta-text text-center">Resources</h3><br>
 <div class="col-lg-6 col-sm-12 col-md-6">
-  <h3>What’s on this page?</h3>
+  <h3>CA Common Ground Resources</h3>
   <p class="about-text">
 On this page, you can look over a few resources that have been curated to show background information to the cause of land reform and land use in California and beyond.</p>
   <p></p>
