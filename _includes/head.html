@@ -25,6 +25,19 @@
     <script type='text/javascript' src="{{ "/js/jquery.easing.1.3.js" | prepend: site.baseurl }}"></script> 
     <script type='text/javascript' src="{{ "/js/camera.min.js" | prepend: site.baseurl }}"></script> 
     <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script> 
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@cacommonground" />
+    {% if page.title %}
+      <meta name="twitter:title" content="{{ page.title }}" />
+    {% endif %}
+    {% if page.twitterdescription %}
+    <meta name="twitter:description" content="{{ page.twitterdescription }}" />
+    {% endif %}
+    {% if page.twitterimage %}
+    <meta name="twitter:image" content="{{ page.twitterimage }}" />
+    {% else %}
+    <meta name="twitter:image" content="http://media.mgm.ink/hgp/hgp-2020-11-12-small.png" />
+    {% endif %}
     
     <script>
 		jQuery(function(){
