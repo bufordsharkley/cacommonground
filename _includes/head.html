@@ -28,15 +28,15 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@cacommonground" />
     {% if page.title %}
-      <meta name="twitter:title" content="{{ page.title }}" />
+    <meta name="twitter:title" content="{{ page.title }}" />
+    {% else %}
+    <meta name="twitter:title" content="CA Common Ground" />
     {% endif %}
     {% if page.twitterdescription %}
     <meta name="twitter:description" content="{{ page.twitterdescription }}" />
     {% endif %}
     {% if page.twitterimage %}
     <meta name="twitter:image" content="{{ page.twitterimage }}" />
-    {% else %}
-    <meta name="twitter:image" content="http://media.mgm.ink/hgp/hgp-2020-11-12-small.png" />
     {% endif %}
     
     <script>
