@@ -2,7 +2,7 @@
 layout: article
 imagetext: "Value Capture: A Modern Tool for Sustainable Infrastructure"
 articleimage: sd_train
-twitterimage: /img/vc_wp_thumb.jpg
+twitterimage: http://cacommonground.org/img/vc_wp_thumb.jpg
 twitterdescription: Read CA Common Ground's white paper on Land Value Increment Tax
 ---
 
