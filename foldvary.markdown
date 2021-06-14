@@ -15,9 +15,10 @@ esteemed and  long-time member of our organization, our former Vice President
 and  an inspirational advocate of Henry George’s philosophy. We hold in our
 hearts his memory and extend our deepest sympathy to his family.
 
-Dr. Foldvary is notably  distinguished for going on record in the American
-Journal of Economics and Sociology in 1997 to predict the exact timing of the
-2008 economic depression—eleven years before the event occurred. He was able to
+Dr. Foldvary is notably  distinguished for going on record in the [American
+Journal of Economics and Sociology](http://onlinelibrary.wiley.com/doi/10.1111/j.1536-7150.1997.tb02657.x/abstract)
+in 1997 to predict the exact timing of the 2008 economic depression—eleven
+years before the event occurred. He was able to
 do so due to his extensive knowledge of the real-estate cycle. Dr. Foldvary’s
 research focused on  universal ethics, public revenue from land rent, community
 associations, and business cycles.
