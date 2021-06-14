@@ -3,6 +3,15 @@
   <div class="logo">
     <a href="index.html"><img src="/img/commongnd.png" width="300" align="center"></a>
   </div>
+  {% if page.url == "/" %}
+  <a href="/foldvary">
+    <div class="announcement-banner" style="background: gray; margin-top: 2em; text-align: center; color: white; font-size: 1.5em; padding: .6em; font-family: 'Oswald', sans-serif;">
+      <div class="announcement-text">
+        We pay tribute to the memory of Fred Foldvary
+      </div>
+    </div>
+  </a>
+  {% endif %}
 	<div class="navbar navbar-inverse">
 		<div class="container">
 			<div class="navbar-header">
