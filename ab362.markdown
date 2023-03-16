@@ -2,7 +2,7 @@
 layout: article
 imagetext: "Land Value Tax on the March in California"
 articleimage: billboard
-twitterimage: http://cacommonground.org/img/vc_wp_thumb.jpg
+twitterimage: http://cacommonground.org/img/billboard.jpg
 twitterdescription: Read about Asm. Alex Lee's new bill on LVT!
 ---
 
