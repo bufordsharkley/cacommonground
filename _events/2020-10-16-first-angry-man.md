@@ -32,4 +32,4 @@ year's Proposition 15. Please respond to the form below. The link to
 join this Zoom meeting will be sent via email before the scheduled
 discussion.
 
-[RSVP here](https://forms.gle/Zs3fQJD78Vncj9QAA)
+<!--- [RSVP here](https://forms.gle/Zs3fQJD78Vncj9QAA) -->

@@ -13,20 +13,25 @@ title: {{ page.title }}
 
   <section class="container about-content">
     <h2 class="cta-text text-center">Events</h3><br>
+  <!--
     <h3 class="cta-text text-center">Upcoming Events</h4><br>
     {% for event in site.events reversed %}
       {% if event.date > site.time %}
         {{ event }}
       {% endif %}
     {% endfor %}
+  -->
 
+  <!--
     <div>
-     <!--Please consult our calendar for information about upcoming events:-->
-    <iframe src="https://calendar.google.com/calendar/embed?src=pur358jiv3bor3o9mv93tnhl58%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        Please consult our calendar for information about upcoming events:
+     <iframe src="https://calendar.google.com/calendar/embed?src=pur358jiv3bor3o9mv93tnhl58%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </div>
-    <h3 class="cta-text text-center">Previous Events</h3><br>
+    <h3 class="cta-text text-center">Previous Events</h3><br> -->
     {% for event in site.events reversed %}
       {% if event.date <= site.time %}
+        {{ event }}
+      {% else %}
         {{ event }}
       {% endif %}
     {% endfor %}
